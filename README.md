@@ -12,6 +12,7 @@
 
 ```
 project-x/
+  .gitignore
   front/
     ... reactin koodit
   back/
