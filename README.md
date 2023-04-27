@@ -10,12 +10,14 @@
 
 ### Projektin rakenne
 
+```
 project-x/
-	front/
-		... reactin koodit
-	back/
-		... bäkkärin koodit
-	infra/
-		docker-compose.yaml -- database
+  front/
+    ... reactin koodit
+  back/
+    ... backendin koodit
+  infra/
+    ... docker database
+```
 
   
