@@ -1,6 +1,11 @@
+import { Route, Routes } from "react-router-dom"
+import LandingView from "./components/landing-view/LandingView"
+
 function App() {
   return (
-    <div>asd</div>
+    <Routes>
+      <Route path="/" element={<LandingView />} />
+    </Routes>
   )
 }
 
