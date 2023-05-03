@@ -1,7 +1,9 @@
+import { Route, Routes } from "react-router-dom"
+
 function App() {
-  return (
-    <div>asd</div>
-  )
+  return <Routes>
+    <Route></Route>
+  </Routes>
 }
 
 export default App;
