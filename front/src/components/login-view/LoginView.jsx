@@ -9,22 +9,26 @@ const LoginView = () => {
     console.log(user, pass);
   };
   return (
-    <form onSubmit={handleLoginClick}>
-      <label>username</label>
+    <form onSubmit={handleLoginClick} className="flex justify-center pt-8">
+      <label className="text-2xl">username</label>
       <input
+        className="border border-emerald-300 rounded-sm text-red-600"
         type="text"
         required
         value={user}
         onChange={(e) => setUser(e.target.value)}
       />
-      <label>password</label>
+      <label className="text-3xl">password</label>
       <input
+        className="border border-gray-600 rounded-sm"
         type="password"
         required
         value={pass}
         onChange={(e) => setPass(e.target.value)}
       />
-      <button>clic</button>
+      <button className="text-4xl border border-green-500 rounded-lg">
+        clic
+      </button>
     </form>
   );
 };
