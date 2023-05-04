@@ -7,17 +7,10 @@ const LandingView = () => {
       <h1 className="text-3xl text-purple-900 mb-20 border rounded-md">
         The Landining
       </h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/login">
-              <button className="border border-yellow-400 rounded-md">
-                Login
-              </button>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+
+      <Link to="/login">
+        <button className="border border-yellow-400 rounded-md">Login</button>
+      </Link>
     </div>
   );
 };

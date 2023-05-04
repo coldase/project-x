@@ -7,6 +7,8 @@ const LoginView = () => {
   const handleLoginClick = (event) => {
     event.preventDefault();
     console.log(user, pass);
+    setUser("");
+    setPass("");
   };
   return (
     <form onSubmit={handleLoginClick} className="flex justify-center pt-8">
