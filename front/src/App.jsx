@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route
-          path="/user/username"
+          path="/user/:username"
           element={
             <>
               <User /> <NavBar />
