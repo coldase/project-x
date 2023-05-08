@@ -2,7 +2,7 @@
   "name": "front",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./front/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
