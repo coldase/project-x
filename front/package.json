@@ -2,8 +2,8 @@
   "name": "front",
   "private": true,
   "version": "0.0.0",
-	"homepage": "https://coldase.github.io/project-x",
-	"type": "module",
+  "homepage": "https://coldase.github.io/",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
