@@ -18,8 +18,8 @@ jobs:
           cd front
           npm install
           npm run build
-          git checkout -b gh-pages
-          rm .gitignore
-          git add dist/
+          git fetch
+          git checkout gh-pages
+          git add dist/* ./
           git commit -m "Update build"
           git push origin gh-pages
