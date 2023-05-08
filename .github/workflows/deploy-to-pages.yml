@@ -19,6 +19,7 @@ jobs:
           npm install
           npm run build
           git checkout -b gh-pages
+          rm .gitignore
           git add dist/
           git commit -m "Update build"
           git push origin gh-pages
