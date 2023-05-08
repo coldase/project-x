@@ -19,6 +19,8 @@ jobs:
           npm install
           npm run build
           git fetch
+          git config --global user.email "coldase-action"
+          git config --global user.name "cd5e@pm.me"
           git checkout gh-pages
           git add dist/* ./
           git commit -m "Update build"
