@@ -3,14 +3,19 @@ import { Link } from "react-router-dom";
 
 const LandingView = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-b from-teal-100 via-blue-200 to-orange-400">
-      <h1 className="text-3xl text-purple-900 mb-20 border rounded-md">
-        The Landining
-      </h1>
+    <div className="h-screen w-screen flex  items-center bg-gradient-to-t from-customBlue to-customAmber ">
+      <div className="mx-auto w-3/4 h-3/4 flex items-center bg-customBlue border-8 rounded-md border-customPink ">
+        <h1 className="font-bold text-white pl-3 animate-bounce shadow-lg">
+          The Greatest React App OF ALL TIME
+        </h1>
+        <div className="flex w-2/4 pr-20"></div>
 
-      <Link to="/login">
-        <button className="border border-yellow-400 rounded-md">Login</button>
-      </Link>
+        <Link to="/login">
+          <button className="font-extrabold text-lg text-customPink border-8 border-customOrange rounded-md shadow-lg bg-customYellow animate-spin">
+            Login
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
