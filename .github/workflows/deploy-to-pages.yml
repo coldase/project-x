@@ -22,5 +22,7 @@ jobs:
           git fetch
           git checkout gh-pages
           git add depl
+          git config --global user.email "cd5e@pm.me"
+          git config --global user.name "bot-coldase"
           git commit -m "Update pages"
           git push origin gh-pages
