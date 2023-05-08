@@ -10,12 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: front
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Build and Deploy React app to GitHub Pages
+        run: cd front
         uses: omkartapale/react-deployment-gh-pages@v1.0.0
