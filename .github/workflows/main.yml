@@ -17,11 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/labeler@v4
-        with:
-          repo-token: ${{ secrets.GH_TOKEN }}
-
       - name: Build and deploy
         run: |
+          git remote set-url origin https://coldase:${{ secrets.GH_TOKEN }}@github.com/coldase/project-x
           npm install
           npm run deploy
