@@ -14,7 +14,6 @@ const NavRoutes = () => {
 };
 
 function App() {
-  console.log("Project-x running");
   return (
     <div>
       <Routes>

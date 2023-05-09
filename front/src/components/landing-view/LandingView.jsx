@@ -6,7 +6,7 @@ const LandingView = () => {
     <div className="h-screen w-screen flex  items-center bg-gradient-to-t from-customBlue to-customAmber ">
       <div className="mx-auto w-3/4 h-3/4 flex items-center bg-customBlue border-8 rounded-md border-customPink ">
         <h1 className="font-bold text-white pl-3 animate-bounce shadow-lg">
-          The Greatest React App OF ALL TIME
+          The Greatest React App OF ALL TIME (toimiiko?)
         </h1>
         <div className="flex w-2/4 pr-20"></div>
 
