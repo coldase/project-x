@@ -19,6 +19,6 @@ jobs:
 
       - name: Build and deploy
         run: |
-          git remote set-url origin https://coldase:${{ secrets.GH_TOKEN }}@github.com/coldase/project-x
+          git remote set-url origin https://${{ secrets.GH_USER }}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.GH_USER }}/${{ secrets.GH_REPO }}
           npm install
           npm run deploy
